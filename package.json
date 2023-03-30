@@ -1,0 +1,30 @@
+{
+  "name": "TestUnityAssignment",
+  "version": "1.0.0",
+  "description": "bookmyshow tickets booking",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress//e2e//Cucumbertests//*.feature --headed --browser chrome",
+    "report": "node cypress//cucumber-html-report.js"
+  },
+  "author": "Sagar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/Cucumbertests"
+    
+  }
+}

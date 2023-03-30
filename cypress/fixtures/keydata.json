@@ -1,0 +1,23 @@
+{
+
+    "Breakdowncover":"At home",
+    "Windscreenrepair":"YES",
+    "incidents":"incidents",
+    "Registration":"KA-01-EZ-9230",
+    "Annualmileage":"24500",
+    "Estimatedvalue":"450000",
+    "ParkingLocation":"Locked Garage",
+    "Startofpolicy":{"date":"20","year":"2017","month":"June"},
+    "expectedpremium":"£13530",
+    "savedmessage":"You have saved this quotation!",
+    "retirveid":"24082",
+
+    "title":"Mr",
+    "surname":"Morabagalu",
+    "firstname":"Sagar",
+    "phonenumber":"8639664763",
+    "fulldate":{"date":"20","year":"2017","month":"June"},
+    "licenseperiod":"2",
+    "useroccupation":"Engineer"
+}
+
