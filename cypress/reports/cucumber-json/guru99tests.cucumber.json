@@ -1,0 +1,502 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "guru 99 tests",
+    "line": 1,
+    "id": "guru-99-tests",
+    "tags": [],
+    "uri": "guru99tests.feature",
+    "elements": [
+      {
+        "id": "guru-99-tests;verify-login-is-successful-with-a-valid-user-id-and-password",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify Login is successful with a valid user id and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 10586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user Enter the valid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 7729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify user is landed on the Home page",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-login-is-failed-with-a-invalid-user-id-and-valid-password",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify Login is failed with a invalid user id and valid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 1786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user Enter the invalid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 2944000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "verify user is not landed on the Home page",
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-login-is-failed-with-a-valid-user-id-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify Login is failed with a valid user id and invalid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 2147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user Enter the valid username and invalid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 6940000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "verify user is not landed on the Home page",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-user-is-able-to-request-a-quotation-and-the-returned-quotation-is-valid-and-then-save-quotation",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verify user is able to request a quotation and the returned quotation is valid and then save quotation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 2208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user Enter the valid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 7213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "user navigates to requestquotation page",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user selects breeakdowncover",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user selects windscreenrepair",
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "user enters incidents",
+            "result": {
+              "status": "passed",
+              "duration": 484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "user enters registration number",
+            "result": {
+              "status": "passed",
+              "duration": 580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "user enters Annual mileage",
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "user enters estimated value",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "selects parking location",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "user selects start of policy dates",
+            "result": {
+              "status": "passed",
+              "duration": 760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user clicks on calculate premium",
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "generated premium should be valid premium",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "save the quotation",
+            "result": {
+              "status": "passed",
+              "duration": 1203000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-user-is-able-to-retrive-a-quotation-with-valid-id-and-verify-the-details",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Verify user is able to retrive a quotation with valid id and verify the details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 1474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "user Enter the valid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 5893000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "user navigates to retrive quotation page",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "user enters valid id and click on search",
+            "result": {
+              "status": "passed",
+              "duration": 1942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "verify the results are as expected",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-user-is-able-to-edit-the-profile-details",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Verify user is able to edit the profile details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 1095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "user Enter the valid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 2963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "user navigates to profileedit page",
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "enters the data in all mandatory fields",
+            "result": {
+              "status": "passed",
+              "duration": 2873000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "clicks on submit",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-profile-details-in-the-profile-page",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Verify profile details in the profile page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 4133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "user Enter the valid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 2910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "user navigates to profile page",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "verify the user name",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<p>' to have text '\\n Title:Sagar\\n', but the text was '\\n  Title:\\n  '\n    + expected - actual\n\n    -'\\n  Title:\\n  '\n    +'\\n Title:Sagar\\n'\n\n    at Context.eval (cypress/e2e/Cucumbertests/guru99tests/guru99tests.stepdef.js:137:36)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "guru-99-tests;verify-logout-functionality-post-successful-login",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Verify logout functionality post successful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 60,
+            "name": "user visited the Guru99 Website",
+            "result": {
+              "status": "passed",
+              "duration": 1979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "user Enter the valid username and valid password and click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 3301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "user clicks on logout",
+            "result": {
+              "status": "passed",
+              "duration": 2179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "verify user is logged out successfully",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
